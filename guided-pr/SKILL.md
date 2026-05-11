@@ -127,8 +127,15 @@ This PR is a guided tour. Each comment links to the next; if a link doesn't scro
 
 ### [Start here]({pr_url}/files#r{first_id})
 
+1. [{section title 1}]({pr_url}/files#r{id_1})
+2. [{section title 2}]({pr_url}/files#r{id_2})
+...
+N. [{section title N}]({pr_url}/files#r{id_N})
+
 ---
 ```
+
+The numbered list is a table of contents. Generate it from the same step numbers and section titles used in the comment footers, in tour order. Reviewers can jump to any stop directly, or follow the chain in order from "Start here".
 
 Then:
 
