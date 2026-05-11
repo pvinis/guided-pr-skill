@@ -123,7 +123,7 @@ Prepend a "Guided tour" section to the existing PR body:
 ```markdown
 ## Guided tour
 
-This PR is a guided tour ([h/t @ds300](https://github.com/ds300)). Each comment links to the next; if a link doesn't scroll the page, open it in a new tab and wait a few seconds for GitHub to catch up.
+This PR is a guided tour. Each comment links to the next; if a link doesn't scroll the page, open it in a new tab and wait a few seconds for GitHub to catch up.
 
 ### [Start here]({pr_url}/files#r{first_id})
 
@@ -152,4 +152,4 @@ Read the existing body first and preserve it below the inserted section.
 - Don't post the whole tour without showing drafts to the user first.
 - Don't skip Pass 2 — a chain with broken Prev/Next is worse than no chain.
 - Don't add tour comments to a PR you don't own without explicit permission.
-- Don't claim authorship of the format. Attribute @ds300.
+- Don't add @ds300 attribution to the PR body or tour comments themselves — keep attribution in the skill's own docs (this file and the README), not in PRs the skill operates on.
